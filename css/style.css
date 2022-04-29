@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+section.main{
+    background-image: url("/imagens/background.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0 80px 0;
+}
+.menu{
+    width: 100%;
+    display: flex;
+}
+.logomenu{
+    width: 50%;
+}
+.itensmenu{
+    text-align: right;
+    width: 50%;
+    margin: 5px 5px;
+}
+.itensmenu a{
+    font-weight: bold;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.itensmenu a:hover{
+    border-bottom: 2px solid #ffdd33;
+    border-radius: 5px;
+
+}
+
+.contatos{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: blue;
+}
+.mockup{
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.mockup h1{
+    color: white;
+    display: block;
+    font-size: 50px;
+}
+.mockup p{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
+.mockup img{
+    max-width: 100%;
+}
+.marcas .center{
+    padding: 100px 0;
+}
+.marcas .center img{
+    width: 20%;
+}
+.porque_nos{
+    padding: 40px 0;
+    background-color: #FBFCFE;
+}
+section.porque_nos > .center > h2{
+    font-size: 64px;
+    width: 100%;
+    text-align: center;
+    
+}
+section.porque_nos > .center > p{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    color: #7E92AC;
+    padding: 15px 0;
+}
+.diferenciais{display: inline-flex;}
+.diferenciais .box_dif{
+    margin-top: 100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 40px #2426721C;
+    border-radius: 20px;
+    width: 30%;
+    margin-right: 3%;
+    padding: 10px 20px;
+}
+.diferenciais .box_dif > h3{
+    font-style: Raleway, SemiBold;
+    font-size: 18px;
+}
+.diferenciais .box_dif > p{
+    margin: 10px 0px 10px ;
+    color:#7E92AC ;
+    font-size: 14px;
+}
+
+.banner{   
+    margin-top: 50px;
+    background-color: #7E92AC;
+    padding: 20px 10px;
+    min-height: 200px;
+    background-image: url(/imagens/banner.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+}
+section > h1{
+    margin-top: 25px;
+    font: normal normal normal 45px Raleway;
+    text-align: center;
+
+}
+section  > p{
+    margin-top: 18px;
+    text-align: center;
+    font: normal normal normal 17px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+section.banner > .botaocontato{
+    box-shadow: 10px 10px 10px #000003c0;
+    text-align: left;
+    font: normal normal bold 18px Raleway;
+    letter-spacing: 1.4px;
+    color: #0F3FD3;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 16px 25px;
+    background-color: #FFDD33;
+}
+.beneficios {
+
+    width: 100%;
+    margin-top: 100px;
+}
+.beneficios > .center > .pravc > h1{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    font: normal normal bold 45px Raleway;
+    letter-spacing: 0px;
+    color: #040404;
+    opacity: 1;
+}
+.beneficios > .center > .pravc{
+    text-align: left;
+    width: 50%;
+    
+} 
+.beneficios > .center > .pravc > div {
+    display: inline-flex;
+}
+.beneficios > .center > .pravc > div > p{
+    margin-left: 0px;
+    color: #7E92AC;
+    font: normal normal normal 12px Raleway;
+    margin-top: 13px;
+    width: 50%;
+}
+.beneficios > .center > .pravc > div > img{
+    margin-left: 15px;
+    width: 70px;
+}
+.beneficios > .center > .imagenspc{
+    width: 50%;
+} 
+.beneficios > .center > .imagenspc > img{
+    
+    text-align: center;
+    width: 100%;
+    
+} 
+
+.botaocontato2{
+    box-shadow: 10px 10px 10px #00000054;
+    margin-top:30px ;
+    margin-left: 40px;
+    font: normal normal bold 14px Raleway;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: #0F3FD3;
+    text-decoration: none;
+    max-width: 220;
+    text-align: left;
+}
+.mateus{
+
+    margin-top: 100px;
+    background-color: #0F3FD3;
+    color: #aecf18;
+    font-style: italic;
+    display: inline-block;
+    flex-wrap: wrap;
+    height:150px ;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.mateus > .center > h1{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 768px){
+    .marcas {
+        align-items: center;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .marcas .center{
+        flex-wrap: wrap;
+        display:flex;
+        justify-content: center;
+    }
+    .marcas .center img{
+        box-shadow: 10px 10px 10px #2427720a;
+        margin: 10px 10px;
+        max-width: 45%;
+    }
+    .mateus{
+        margin-top: 300px;
+    }
+    .beneficios{
+        text-align: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin:0%;
+        padding: 0%;
+        align-items: center;
+        height: 0600px;
+    }
+    .beneficios > .center > .pravc > div{
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        font-size: 35px;
+        margin-left: 0px;
+        justify-content: center;
+        margin-left: -20px;
+
+    }
+    .beneficios > .center > .pravc {
+        text-align: center;
+    }
+    .beneficios > .center > .pravc > div > img{
+        margin-top: 5px;
+        width: 50px;
+    }
+    .beneficios > .center > .pravc > p{
+        text-align: left;
+        font-size: 35px;
+        margin-left: 0;
+        justify-content: center;
+    }
+    .beneficios > .center > .pravc > h1{
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+        margin: 0px;
+        padding: 0px;
+        justify-content: left;
+    }
+   
+    .beneficios > .center > .imagenspc{
+        margin-top: 50px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .beneficios > .center > .imagenspc > img{
+        text-align: center;
+        text-align: center;
+    }
+
+    .beneficios > .center > .pravc {
+        flex-wrap: wrap;
+        width: 100%;
+    } 
+    .beneficios > .center > .pravc > .botaocontato2{
+        margin-top: 100px;
+        box-shadow: 10px 10px 10px #2426721C;
+    }
+    .beneficios > .center > .pravc > a{
+        box-shadow: 10px 10px 10px #2426721C;
+        margin-left: 0px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        align-items: center;
+        font: normal normal bold 14px Raleway;
+        letter-spacing: 1.6px;
+        color: #FFFFFF;
+        border-radius: 5px;
+        background-color: #0F3FD3;
+        text-decoration: none;
+        max-width: 220px;
+        padding: 20px 100px;
+        height: 100px;
+    }
+
+    section > .center > .diferenciais{   
+
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+        
+        
+    }
+    section > .center > .diferenciais > .box_dif > img{
+        align-items: flex-start;
+        width: 25%;
+        
+    }
+    section > .center > .diferenciais > .box_dif{
+        width: 100%;
+        margin-top:10px;
+        margin: 10px;
+
+    }
+    .marcas .center img{
+        width: 100%;
+        
+    }
+    .banner{
+        margin-bottom: 50px;
+    }
+}
